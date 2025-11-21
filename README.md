@@ -1,5 +1,7 @@
 # WordPress on Red Hat Universal Base Image 10
 
+<img  alt="red-hat-logo" src="https://github.com/user-attachments/assets/53b940ad-c05f-41ce-8c35-0d048b7da04a" width="460" height="100" />
+
 ## Overview
 
 Enterprise-grade WordPress deployment built on Red Hat Universal Base Image 10 (UBI10), featuring Apache 2.4.62 and PHP 8.3.19 with FPM. This solution is designed for production environments with CIS baseline readiness and multi-cloud compatibility.
