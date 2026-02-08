@@ -1,9 +1,12 @@
 # Base image: Red Hat Universal Base Image 10
 FROM registry.access.redhat.com/ubi10/ubi:latest
 
-LABEL maintainer="Amaan Ul Haq Siddiqui" \
-      description="WordPress on UBI10 with Apache 2.4 and PHP 8.3 FPM (CIS baseline ready)" \
-      version="1.0"
+LABEL org.opencontainers.image.authors="Amaan Ul Haq Siddiqui" \
+      org.opencontainers.image.title="WordPress on UBI10 with Apache and PHP-FPM" \
+      org.opencontainers.image.description="WordPress on UBI10 with Apache 2.4 and PHP 8.3 FPM (CIS baseline ready)" \
+      org.opencontainers.image.version="1.0" \
+      org.opencontainers.image.source="https://github.com/amaanx86/red-hat-cis-docker" \
+      org.opencontainers.image.licenses="Apache-2.0"
 
 # Install system packages and PHP 8.3
 RUN dnf -y update && \
